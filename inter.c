@@ -101,9 +101,10 @@ struct rgba rgba_interpolate(double x, double y, struct bilinear_interpolation_r
 }
 
 
-// the code below is simply for testing
-
-//http://www.labbookpages.co.uk/software/imgProc/libPNG.html
+// the function below is not written by me, and is thus not unlicensed
+// the function originates from the link below, please refer to the license used
+// on labbookpages.co.uk
+// http://www.labbookpages.co.uk/software/imgProc/libPNG.html
 int writeImage(char* filename, int width, int height, char* title, struct bilinear_interpolation_rgba *f) {
   int code = 0;
   FILE *fp = NULL;
